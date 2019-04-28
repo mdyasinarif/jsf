@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+
+            </f:facet>
+        </h:head>
+
+        <h:body>
+
+            <p:layout fullPage="true">
+
+                <p:layoutUnit position="north" size="100" resizable="true" closable="true" collapsible="true">
+                    <h:graphicImage value="resources/images/logo.png" />
+                    <!--<img src="resources/images/logo.png;" alt="logo" />-->
+                </p:layoutUnit>
+
+                <p:layoutUnit position="south" size="100" closable="true" collapsible="true">
+                    Footer
+                </p:layoutUnit>
+
+                <p:layoutUnit position="west" size="175" header="SSBBSS" collapsible="true">
+                    <p:menu>
+                        <p:submenu label="CreateAC">
+                            <p:menuitem value="SavingAC" url="http://www.primefaces.org/showcase-labs/ui/home.jsf" />
+                            <p:menuitem value="InvestmentAC" url="http://www.primefaces.org/documentation.html" />                   
+                        </p:submenu>
+                        <p:submenu label="Transition">
+                            <p:menuitem value="Saving" url="http://www.primefaces.org/showcase-labs/ui/home.jsf" />
+                            <p:menuitem value="Investment" url="http://www.primefaces.org/documentation.html" />                   
+                        </p:submenu>
+                        <p:submenu label="Statement">
+                            <p:menuitem value="Saving" url="http://www.primefaces.org/showcase-labs/ui/home.jsf" />
+                            <p:menuitem value="Investment" url="http://www.primefaces.org/documentation.html" />                   
+                        </p:submenu>
+
+                    </p:menu>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="center">
+                    <h:form>
+                        <h:panelGrid columns="2" cellpadding="5">
+                            <p:outputLabel value="Name"  />
+                            <p:autoComplete id="name" value="#{autoCompleteView.txt1}" completeMethod="#{autoCompleteView.completeText}" />
+                        </h:panelGrid>
+                        <h:panelGrid columns="2" cellpadding="5">
+                            <p:outputLabel value="MotherName"  />
+                            <p:autoComplete id="MotherName" value="#{autoCompleteView.txt1}" completeMethod="#{autoCompleteView.completeText}" />
+                        </h:panelGrid>
+                        <h:panelGrid columns="2" cellpadding="5">
+                            <p:outputLabel value="Father/HusbendName"  />
+                            <p:autoComplete id="FatherHusbendName" value="#{autoCompleteView.txt1}" completeMethod="#{autoCompleteView.completeText}" />
+                        </h:panelGrid>
+                        <h:panelGrid columns="2" cellpadding="5">
+                            <p:outputLabel for="Gender" value="Gender" />
+                            <p:selectOneRadio id="Gender" value="Gender">
+                                <f:selectItem itemLabel="Male" itemValue="Male" />
+                                <f:selectItem itemLabel="Female" itemValue="Female" />
+                            </p:selectOneRadio>
+                        </h:panelGrid>
+                        <h:panelGrid columns="2" cellpadding="5">
+                            <p:outputLabel for="popup" value="Popup:" />
+                            <p:datePicker id="popup" value="#{calendarView.date2}" />
+                        </h:panelGrid>
+                    </h:form>
+
+                </p:layoutUnit>
+
+            </p:layout>
+
+        </h:body>
+
+    </f:view>
+</html>
+
