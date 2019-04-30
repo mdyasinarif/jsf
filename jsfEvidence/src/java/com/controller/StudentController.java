@@ -11,12 +11,14 @@ import com.serviceImp.StudentServiceImp;
 import java.util.ArrayList;
 import java.util.List;
 import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
 
 /**
  *
  * @author Md Yasin Arif
  */
+@ManagedBean
 public class StudentController {
     private Student student;
     private List<Student> students;
@@ -59,8 +61,8 @@ public class StudentController {
         return students;
     }
 
-    public void setStudents(List<Student> students) {
-        this.students = students;
+    public void setStudents(List<Student> studentsList) {
+        this.students = studentsList;
     }
 
    
