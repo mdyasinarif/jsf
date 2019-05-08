@@ -9,8 +9,27 @@
 /jsfEvidence/nbproject/private/
 /jsfEvidence/build/
 /jsfEvidence/dist/
+<<<<<<< HEAD
 /filterex/nbproject/private/
 /filterex/build/
 /chapter10/nbproject/private/
 /chapter10/build/
 /jstlLoginTest/nbproject/private/
+=======
+/jsfcurdevidence/nbproject/private/
+/jsfcurdevidence/build/
+/myEvidence/jstlLogin/nbproject/private/
+/myEvidence/jstlLogin/build/
+/myEvidence/jstlLogin/dist/
+>>>>>>> 01c87d6dc06ce9ed47fa37bdaf7203905725a8af
+/myEvidence/jsfcurd/nbproject/private/
+/myEvidence/jsfcurd/build/
+/myEvidence/jsfcurd/dist/
+/loginWithMysql/nbproject/private/
+/loginWithMysql/build/
+/myEvidence/jstlLogin2/nbproject/private/
+/myEvidence/jstlLogin2/build/
+/LoginCurd/nbproject/private/
+/LoginCurd/build/
+/myEvidence/loginjstl/build/
+/myEvidence/loginjstl/nbproject/private/

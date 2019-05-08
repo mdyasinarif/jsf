@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/loginWithMysql" docBase="loginWithMysql" debug="99">
+
+<Realm className="org.apache.catalina.realm.JDBCRealm"
+        connectionName="root"
+        connectionPassword="1234"
+        connectionURL="jdbc:mysql://localhost:3306/security"
+        debug="99"
+        driverName="com.mysql.jdbc.Driver"
+        roleNameCol="role_name"
+        userCredCol="password"
+        userNameCol="username"
+        userRoleTable="user_roles"
+        userTable="users"
+/>
+</Context>

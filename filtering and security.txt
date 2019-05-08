@@ -1,0 +1,56 @@
+﻿• What a filter ?
+ Filters can intercept request header information before it reaches the resource in
+the processing pipeline and can therefore be used to create customized authentication
+schemes. 
+1 Filtering is a standard feature of 
+	Ans : all Servlet 2.5–compliant containers.
+2 when does filter introduce int servelet technology ?  
+	Ans : Servlet 2.3 
+3 Some popular uses for filters ? 
+	Ans: include authentication, auditing, compression, encryption, and on-the-fly format transformation, to name but a few. 
+4  which Servlet further enhances container support of filters by providing filtering for dispatched requests?
+	Ans : Servlet 2.5
+5 what is filter ?
+
+6 what can filter do?
+
+7 filter can intercept http request header information ?true or false
+
+8 filter can useful in data transformation, explain with an example
+
+9 filter can preerpt the reveing of the particuler resource ?
+
+10 what type of resource does a server serve?Exoain with an graph ( see 401)
+
+11 filter are called by the application server both prior to and subrequest resources processin to the server explain with graph?
+
+12 filter in terface has _ main methods explain each methods (404)
+
+13 define filter definitation and filter mapping (404)
+
+14 draw a diagram of filter life cycle?
+
+15 write 3 methods of filter confiq interface and exptai the funetions?
+
+16 write down filter defination like filter-name,class,param(407) 
+
+17 define filter mapping with an example
+
+18 define /*, /servlet/*,/jsp/*.jsp,/dept/accounting/*
+
+19 draw a graph related to incoming and outgoing request to access web resource?(410)
+
+Security------------------------------
+
+1  what is  Authentication and autharization Describe with a graph ?
+2 define Data inteqrity, data privece or confidentiality?
+3 Define Realm ?
+4 security-constraint dyagram ? (473)
+5 what type of  Authentication Mechanisms/methods for Web Applications?(475)
+6 how to redirect a jsp page after successfull login?
+7 what is error pages and how can you build it?
+8 ssl (secure socket layer) ? how does it work? hhtps:// google.com
+9 Encription methods SHA , MD5(for php), AES (for Java)
+
+
+
