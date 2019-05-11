@@ -28,20 +28,19 @@ public class StudentContoller {
         service.save(student);
      
         
-        System.out.println("Save");
+        
     }
 
     public void update() {
         service = new StudentImp();
         service.update(student);
-        student = new Student();
-         System.out.println("update");
+        
     }
 
     public void delete() {
         service = new StudentImp();
         service.delete(student);
-        System.out.println("delete");
+        
     }
 
     public Student getStudent() {
